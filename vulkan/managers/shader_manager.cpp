@@ -65,7 +65,7 @@ bool ShaderTemplate::init()
 		return false;
 	}
 #else
-	(void)include_directories;
+	//(void)include_directories;
 #endif
 
 	return true;
